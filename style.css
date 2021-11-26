@@ -1,0 +1,137 @@
+#photo-de-profil-ronde {
+	width : 640px;
+	height : 480px;
+	border-radius : 20%;
+}
+
+body {
+	background-color: lavender;
+}
+
+H1, H2 {
+	color: grey;
+	font-family: 'BD Geminis', cursive;
+}
+
+H1 {
+	font-size: 48px;
+	font-weight: 700;
+}
+
+H2 {
+	font-size: 32px;
+	font-weight: 300;
+}
+
+
+p {
+	color: whitesmoke;
+	font-family: 'Arial', serif;
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-family:'Arial', serif;
+	font-size: 16px;
+}
+
+a: hover {
+	color : rgb(15, 82, 186);
+	font-size: 24px;
+}
+
+.list-inline {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+li{
+margin-bottom: 15px;
+display: inline;
+}
+
+
+
+.container {
+	width : 1040px;
+	text-align : center;
+	margin: 0 auto;
+
+}
+
+.card-white {
+	background: Thistle;
+	padding : 30px;
+	margin: 30px;
+	border-radius: 20px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.5);
+	max-resolution : 0 auto;
+}
+
+.btn-blue{
+	width: 160px;
+	height: 90px;
+	padding: 16px;
+	margin-top: 16px;
+	background: #6d72e1;
+	color: white;
+	border-radius: 6px;
+	border: solid 1px #6d72e1;
+}
+
+.btn-blue: hover {
+	background: #4ebedf;
+	color: white;
+	border: solid 1px #4ebedf;
+	transition: 0.5s;
+}
+
+#photo-mer{
+	background-image: url(image/photo-mer.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#photo-lma{
+	background-image: url(image/photo-lma.JPG);
+	background-position: center;
+	background-size: cover;
+}
+
+#photo-moto{
+	background-image: url(image/moto1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#gif-moto{
+	background-image: url(image/gif-moto.html);
+	background-position: center;
+	background-size: cover;
+}
+
+#front-end-photo-title, #front-end-photo-text, #social-media-photo-card;
+	transform: scale(1.03);
+	transition: 0.5s;
+
+#text1{
+	margin:  8px;
+	padding: 8px;
+}
+
+
+@media(max-width: 900px){
+	.container{
+		width: 700px;
+	}
+}
+
+@media(max-width: 600px){
+	.container{
+		width: 400px;
+	}
+}
+
+
